@@ -1,2 +1,2 @@
 # Day2DayProgramming
-Some small programs, scripts and etc.
+This repo contains some small programs, scripts and etc., that I typically write to automate something.
