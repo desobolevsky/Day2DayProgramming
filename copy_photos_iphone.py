@@ -4,7 +4,7 @@ import sys
 
 EXISTENT_PHOTOS_PATH = sys.argv[1]  # '/home/username/photos/'
 IPHONE_PHOTOS_PATH = sys.argv[2]  # '/home/username/iPhone8/DCIM/' - mounted folder
-SAVE_PHOTOS_PATH = sys.argv[3]   # '/home/dionysus/new_photos/'
+SAVE_PHOTOS_PATH = sys.argv[3]   # '/home/username/new_photos/'
 
 existing_files = set(os.listdir(EXISTENT_PHOTOS_PATH))
 
