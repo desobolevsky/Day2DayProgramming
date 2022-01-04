@@ -1,0 +1,11 @@
+CREATE TABLE goods(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    url TEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE price(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    good_id TEXT references goods(id) NOT NULL ,
+    price REAL NOT NULL,
+    timestamp INTEGER NOT NULL
+);
